@@ -34,6 +34,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
     integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
   <script defer src="./js/main.js"></script>
 </head>
 
@@ -41,7 +46,6 @@
   <!-- HEADER -->
   <header>
     <div class="inner">
-
       <a href="/" class="logo">
         <img src="./images/starbucks_logo.png" alt="STARBUCKS" />
       </a>
@@ -188,7 +192,10 @@
             <div class="contents__texture">
               <div class="inner">
                 <h4 class="new">스타벅스 티바나</h4>
-                <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+                <p>
+                  다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의
+                  티를 선보입니다.
+                </p>
               </div>
             </div>
           </div>
@@ -315,7 +322,9 @@
             <div class="contents__texture">
               <div class="inner">
                 <h4>스타벅스 카드 등록하기</h4>
-                <p>카드 등록 후 리워드 서비스를 누리고 사용내역도 조회해보세요.</p>
+                <p>
+                  카드 등록 후 리워드 서비스를 누리고 사용내역도 조회해보세요.
+                </p>
               </div>
             </div>
           </div>
@@ -365,7 +374,6 @@
           </div>
         </li>
       </ul>
-
     </div>
 
     <div class="badges">
@@ -395,6 +403,78 @@
       </div>
       <div class="fade-in">
         <img src="./images/visual_spoon.png" alt="Spoon" class="spoon" />
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICE -->
+  <section class="notice">
+    <div class="notice-line">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+        <div class="inner__left">
+          <h2>공지사항</h2>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">[당첨자 발표] 2021 스타벅스 플래너 영수증 이벤트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+              </div>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="notice-line__more">
+            <div class="material-icons">add_circle</div>
+          </a>
+        </div>
+        <div class="inner__right">
+          <h2>스타벅스 프로모션</h2>
+          <div class="toggle-promotion">
+            <div class="material-icons">upload</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="promotion">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide1.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+            <a href="javascirpt:void(0)" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide2.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+            <a href="javascirpt:void(0)" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide3.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+            <a href="javascirpt:void(0)" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide4.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+            <a href="javascirpt:void(0)" class="btn">자세히 보기</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/promotion_slide5.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+            <a href="javascirpt:void(0)" class="btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-prev">
+        <span class="material-icons">arrow_back</span>
+      </div>
+      <div class="swiper-next">
+        <span class="material-icons">arrow_forward</span>
       </div>
     </div>
   </section>
